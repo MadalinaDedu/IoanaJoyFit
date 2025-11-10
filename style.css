@@ -480,7 +480,7 @@ body {
 }
 
 .bottom-wave {
-  bottom: 30px;
+  bottom: 0px;
   transform: rotate(180deg);
 }
 
@@ -3981,7 +3981,7 @@ body {
 
 /* ====== HEADER ====== */
 .header-content h1 {
-  font-size: 42px !important; /* redus de la 50px */
+  font-size: 32px !important; /* redus de la 50px */
 }
 
 .header-content p {
@@ -4316,3 +4316,4 @@ body {
   }
 
 }
+
