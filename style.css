@@ -350,7 +350,7 @@ body {
 
 .header-content h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
   margin-bottom: 20px;
   letter-spacing: 2px;
@@ -4314,4 +4314,5 @@ body {
   .home-text p {
     font-size: 13px !important;
   }
+
 }
