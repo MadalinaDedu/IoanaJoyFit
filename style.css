@@ -352,7 +352,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -480,7 +480,7 @@ body {
 }
 
 .bottom-wave {
-  bottom: 0px;
+  bottom: 30px;
   transform: rotate(180deg);
 }
 
@@ -4314,6 +4314,4 @@ body {
   .home-text p {
     font-size: 13px !important;
   }
-
 }
-

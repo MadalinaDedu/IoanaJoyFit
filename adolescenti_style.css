@@ -440,7 +440,7 @@ body {
 }
 
 .bottom-wave {
-  bottom: 30px;
+  bottom: 0px;
   transform: rotate(180deg);
 }
 
