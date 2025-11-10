@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoanaJoyFit</title>
+  <link rel="stylesheet" href="online_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+  <!-- Header cu videoclip de fundal și meniu modern -->
+  <header class="header" id="hero">
+
+    <!-- Video -->
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="images/online.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Navbar responsive -->
+    <nav class="navbar container">
+      <a href="index.html" class="logo">Ioana<span>JoyFit</span></a>
+    
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#home">Descriere</a></li>
+        <li><a href="#retreat">Galerie</a></li>
+        <!-- <li><a href="#despre">Despre</a></li>
+        <li><a href="#contact">Contact</a></li> -->
+      </ul>
+    </nav>
+
+    <!-- Text principal -->
+    <div class="header-content container">
+      <h1>Antrenamente online</h1>
+      <p>Antrenamente personalizate pentru un stil de viață activ și echilibrat</p>
+      <!-- <a href="#pachete" class="btn-1">Vezi Pachete</a> -->
+    </div>
+  </header>
+
+  <svg class="wave-svg header-wave" viewBox="0 0 1420 130" preserveAspectRatio="none">
+    <path id="wavePathBottom"
+      fill="#fff"
+      d="M0,80 C250,120 620,40 900,80 1440,120 1400,0 1300,0 L0,0 Z"/>
+  </svg>
+
+  <!-- Secțiunea Home -->
+<!-- <section id="home" class="section container yellow-bg">
+  <svg class="wave-svg top-wave" viewBox="0 0 1330 100" preserveAspectRatio="none">
+    <path id="wavePathTop"
+      fill="#fff"
+      d="M0,80 C360,120 720,40 1080,80 1440,120 1440,0 1440,0 L0,0 Z"/>
+  </svg>
+
+  <div class="home_container">
+    <h2>Beneficiile antrenamentelor online</h2>
+    <div class="home-text">
+      <p>Program adaptabil: te poți antrena oricând, fără să depinzi de orele sălii de sport.</p>
+    </div>
+    <div class="home-text">
+      <p>Abonamentele online sunt adesea mai accesibile decât cele la sală.</p>
+    </div>
+    <div class="home-text">
+      <p>Elimină costuri suplimentare cu transportul sau echipamentele obligatorii din sală.</p>
+    </div>
+    <div class="home-text">
+      <p>Posibilitatea de a alege nivelul de dificultate și durata potrivită pentru tine.</p>
+    </div>
+    <div class="home-text">
+      <p>Pentru persoanele timide sau care se simt inconfortabil într-o sală plină, online-ul oferă un mediu sigur.</p>
+    </div>
+    <div class="home-text">
+      <p>Este ideal pentru începători sau pentru cei care se recuperează după accidentări.</p>
+    </div> 
+    <div class="home-text">
+      <p>Feedback rapid de la instructori, chiar dacă nu sunteți în aceeași locație.</p>
+    </div>
+    <div class="home-text">
+      <p>Majoritatea antrenamentelor online pot fi făcute cu lucruri simple din casă: un scaun stabil pentru exerciții de echilibru sau flotări modificate; sticle cu apă sau cărți pentru greutăți</p>
+    </div>
+  </div>
+
+  <svg class="wave-svg bottom-wave" viewBox="0 0 1350 150" preserveAspectRatio="none">
+    <path id="wavePathBottom"
+      fill="#fff"
+      d="M0,80 C360,120 720,40 1000,80 1340,120 1440,0 1440,0 L0,0 Z"/>
+  </svg>
+
+</section> -->
+
+<!-- Secțiunea Home -->
+<section id="home" class="section yellow-bg">
+  <!-- Wave animat la început -->
+  <svg class="wave-svg top-wave" viewBox="0 0 1330 100" preserveAspectRatio="none">
+    <path id="wavePathTop"
+      fill="#fff"
+      d="M0,80 C360,120 720,40 1080,80 1440,120 1440,0 1440,0 L0,0 Z"/>
+  </svg>
+
+  <div class="home_container">
+    <h2>Beneficiile antrenamentelor online</h2>
+    
+    <!-- TOATE paragrafele într-un singur div home-text -->
+    <div class="home-text">
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-clock"></i></div>
+        <p>Program adaptabil: te poți antrena oricând, fără să depinzi de orele sălii de sport.</p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-wallet"></i></div>
+        <p>Abonamentele online sunt adesea mai accesibile decât cele la sală.</p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-piggy-bank"></i></div>
+        <p>Elimină costuri suplimentare cu transportul sau echipamentele obligatorii din sală.</p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-sliders-h"></i></div>
+        <p>Posibilitatea de a alege nivelul de dificultate și durata potrivită pentru tine.</p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-user-shield"></i></div>
+        <p>Pentru persoanele timide sau care se simt inconfortabil într-o sală plină, online-ul oferă un mediu sigur.</p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-heartbeat"></i></div>
+        <p>Este ideal pentru începători sau pentru cei care se recuperează după accidentări.</p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-comments"></i></div>
+        <p>Feedback rapid de la instructori, chiar dacă nu sunteți în aceeași locație.</p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-home"></i></div>
+        <p>Majoritatea antrenamentelor online pot fi făcute cu lucruri simple din casă: un scaun stabil pentru exerciții de echilibru sau flotări modificate; sticle cu apă sau cărți pentru greutăți</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Wave animat la final -->
+  <svg class="wave-svg bottom-wave" viewBox="0 0 1350 150" preserveAspectRatio="none">
+    <path id="wavePathBottom"
+      fill="#fff"
+      d="M0,80 C360,120 720,40 1000,80 1340,120 1440,0 1440,0 L0,0 Z"/>
+  </svg>
+</section>
+
+<section id="retreat" class="retreat-section">
+  <div class="retreat-text">
+    <h2>Galerie</h2>  
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item"><img src="images/fit1.jpg" alt="Imagine 1"></div>
+    <div class="gallery-item"><img src="images/fit2.jpg" alt="Imagine 2"></div>
+    <div class="gallery-item"><img src="images/fit3.jpg" alt="Imagine 3"></div>
+    <div class="gallery-item"><img src="images/fit4.jpg" alt="Imagine 4"></div>
+    <div class="gallery-item"><img src="images/fit5.jpg" alt="Imagine 5"></div>
+    <div class="gallery-item"><img src="images/fit6.jpg" alt="Imagine 6"></div>
+    <div class="gallery-item"><img src="images/fit7.jpg" alt="Imagine 7"></div>
+    <div class="gallery-item"><img src="images/fit7.jpg" alt="Imagine 8"></div>
+  </div>
+
+    <!-- Galerie Mobil (Carusel) -->
+  <div class="gallery-carousel swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/fit1.jpg" alt="Imagine 1"></div>
+      <div class="swiper-slide"><img src="images/fit2.jpg" alt="Imagine 2"></div>
+      <div class="swiper-slide"><img src="images/fit3.jpg" alt="Imagine 3"></div>
+      <div class="swiper-slide"><img src="images/fit4.jpg" alt="Imagine 4"></div>
+      <div class="swiper-slide"><img src="images/fit5.jpg" alt="Imagine 5"></div>
+      <div class="swiper-slide"><img src="images/fit6.jpg" alt="Imagine 6"></div>
+      <div class="swiper-slide"><img src="images/fit7.jpg" alt="Imagine 7"></div>
+      <div class="swiper-slide"><img src="images/fit7.jpg" alt="Imagine 8"></div>
+  </div>
+  
+    <!-- Buline paginare -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+</section>
+
+  <svg width="100%" height="100%" id="svg" viewBox="0 0 1400 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 L 0,225 C 136.85714285714286,199.625 273.7142857142857,174.25 389,157 C 504.2857142857143,139.75 598,130.625 727,117 C 856,103.375 1020.2857142857144,85.25 1145,65 C 1269.7142857142856,44.75000000000001 1354.8571428571427,22.375000000000004 1440,0 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="#FF9800" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>
+
+  <!-- <footer class="footer container">
+    <p>&copy; 2025 IoanaJoyFit. Toate drepturile rezervate.</p>
+  </footer> -->
+
+  <script src="menu_script.js"></script>
+  <script src="pachete_script.js" defer></script>
+    <!-- Swiper JS oficial -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="swiper.js"></script>
+
+</body>
+</html>
