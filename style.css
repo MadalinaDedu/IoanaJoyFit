@@ -4315,3 +4315,25 @@ body {
     font-size: 13px !important;
   }
 }
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Elimină overflow-ul SVG-urilor decorative */
+.wave-svg,
+header svg,
+section svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* În cazul în care sunt absolut poziționate */
+.top-wave, .bottom-wave, .header-wave {
+  left: 0;
+  right: 0;
+}
