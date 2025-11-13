@@ -43,7 +43,7 @@ const observerRetreat = new IntersectionObserver((entries) => {
     }
   });
 }, {
-  threshold: 0.8
+  threshold: 0.2
 });
 
 const retreatCard = document.querySelector('.retreat-card');
